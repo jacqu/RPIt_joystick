@@ -20,3 +20,7 @@
  * 
  * 
  */
+
+int 			rpitjs_init				( int device );
+int 			rpitjs_terminate	( int device );
+int 			rpitjs_read				( int device );
